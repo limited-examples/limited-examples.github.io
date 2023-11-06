@@ -101,7 +101,7 @@ var circleArray = [];
 
 function init() {
     circleArray=[];
-    for (var i = 0; i < (innerHeight * innerWidth)/500; i++) {
+    for (var i = 0; i < (innerHeight * innerWidth)/600; i++) {
         let color = colorArray[Math.floor(Math.random() * colorArray.length)]; //`rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
         let radius = Math.random() * 10 + 1;
         let x = Math.round(Math.random() * (innerWidth - radius * 2) + radius);
